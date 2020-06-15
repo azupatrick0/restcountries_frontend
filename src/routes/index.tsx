@@ -1,11 +1,11 @@
 import React from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
-import Home from 'pages';
+import Countries from 'pages/Countries';
 
 const Routes = () => (
   <BrowserRouter>
       <Switch>
-        <Route path="/" exact component={(props: JSX.IntrinsicAttributes) => <Home {...props} />} />
+        <Route path="/" exact component={(props: JSX.IntrinsicAttributes) => <Countries {...props} />} />
       </Switch>
   </BrowserRouter>
 );
