@@ -2,9 +2,9 @@ import React, { SFC, ChangeEvent } from 'react';
 import Button from 'components/Button';
 
 interface iProps {
-  onClick: () => void;
-  value: string;
-  onChange: (event: ChangeEvent<HTMLInputElement>) => void;
+  onClick?: () => void;
+  value?: string;
+  onChange?: (event: ChangeEvent<HTMLInputElement>) => void;
 }
 
 const Search:SFC<iProps> = ({ value, onChange, onClick }) => (

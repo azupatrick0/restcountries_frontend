@@ -1,0 +1,3 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Slot test suite should render slot page 1`] = `ReactWrapper {}`;

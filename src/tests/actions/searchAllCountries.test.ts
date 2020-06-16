@@ -35,7 +35,7 @@ describe('searchCountries actions', () => {
       }
     ]
 
-    const store = mockStore();
+    const store:any = mockStore();
 
     return store.dispatch(searchCountries('Malta')).then(() => {
       expect(store.getActions()).toEqual(expectedActions);

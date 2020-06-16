@@ -33,7 +33,7 @@ describe('fetchAllCountries actions', () => {
       }
     ]
 
-    const store = mockStore();
+    const store:any = mockStore();
 
     return store.dispatch(fetchAllCountries()).then(() => {
       expect(store.getActions()).toEqual(expectedActions);

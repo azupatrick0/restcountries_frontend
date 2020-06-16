@@ -43,11 +43,15 @@ a {
 	}
 }
 
-.cards__layout {
+.cards__layout, .balance {
 	display: flex;
   justify-content: space-evenly;
   margin-top: 50px;
   flex-wrap: wrap;
+}
+
+.balance .won {
+  margin-left: 5%;
 }
 
 .card {
@@ -58,6 +62,57 @@ a {
 	border-radius: 8px;
   box-shadow: 1px 2px 8px 6px #ebebf5;
   margin-top: 20px;
+}
+
+.spin {
+  .spin__button-view, .spin__balance-view {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+  }
+
+
+  button {
+		margin-top: 20px;
+    margin-left: 10px;
+    background-color: $color-slate-blue;
+    color: $color-white;
+    border-radius: 5px;
+    border: 0;
+    cursor: pointer;
+    height: 40px;
+    padding: 0 40px;
+
+    &:hover {
+      background-color: $color-free-speech-blue;
+    }
+  }
+
+  .balance__depleted {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+    background-color: $color-slate-blue;
+    color: $color-white;
+    border-radius: 5px;
+    border: 0;
+    height: 40px;
+    padding: 0 40px;
+	}
+}
+
+.spin__card {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+	width: 220px;
+	height: 230px;
+	border-radius: 8px;
+  box-shadow: 1px 2px 8px 6px #ebebf5;
+  margin-top: 20px;
+  text-transform: capitalize;
+  font-size: 40px;
 }
 
 .card__image {
@@ -165,5 +220,12 @@ a {
 
   .navbar__desktop {
     display: none;
+  }
+
+  .spin {
+    .balance__depleted {
+      font-size: 12px;
+      padding: 0 20px;
+    }
   }
 }

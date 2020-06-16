@@ -62,7 +62,7 @@ it('should returns loading true while wating for async event to complete', () =>
   });
 });
 
-it('should returns loading false while async async event have completed', () => {
+it('should returns loading false while async event have completed', () => {
   const initialState = {
     allCountries: [],
     loading: true,
