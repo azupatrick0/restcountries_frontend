@@ -1,6 +1,4 @@
 [![Build Status](https://travis-ci.com/azupatrick0/restcountries_frontend.svg?branch=develop)](https://travis-ci.com/azupatrick0/restcountries_frontend)
-[![Coverage Status](https://coveralls.io/repos/github/azupatrick0/restcountries_frontend/badge.svg?branch=develop)](https://coveralls.io/github/azupatrick0/restcountries_frontend?branch=develop)
-
 
 # restcountries_frontend
 
