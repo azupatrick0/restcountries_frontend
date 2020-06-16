@@ -31,12 +31,13 @@
     "redux-devtools-extension": "^2.13.8",
     "redux-mock-store": "^1.5.4",
     "redux-thunk": "^2.3.0",
-    "typescript": "~3.7.2"
+    "typescript": "~3.7.2",
+    "uuidv4": "^6.1.0"
   },
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
-    "test": "nyc react-scripts test --coverage --updateSnapshot",
+    "test": "CI=true nyc react-scripts test --coverage --updateSnapshot",
     "coverage": "nyc report --reporter=text-lcov | coveralls",
     "eject": "react-scripts eject"
   },
