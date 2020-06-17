@@ -15,7 +15,7 @@ export interface iState {
 }
 
 export const Slot: FC = () => {
-  const [balance, setBalance] = useState('');
+  const [balance, setBalance] = useState('' || localStorage.getItem('balance') ? localStorage.getItem('balance') : '');
 	const state = useSelector((state: iState) => state, shallowEqual);
   const dispatch = useDispatch();
   
@@ -45,7 +45,7 @@ export const Slot: FC = () => {
 	return (
 		<div className="spin">
 			<NavBar
-        balance={balance || 20}
+        balance={balance || '20'}
         won={state.spin.spin.won ? state.spin.spin.won : 0}
 			/>
       <div className="spin__balance">
