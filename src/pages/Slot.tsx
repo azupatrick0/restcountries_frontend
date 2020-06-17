@@ -21,7 +21,7 @@ export const Slot: FC = () => {
   
   React.useEffect(() => {
     if (localStorage.getItem('balance') === null) {
-      localStorage.setItem('balance', '1');
+      localStorage.setItem('balance', '20');
     } else if (state.spin.spin.won) {
       const oldBalance:any = localStorage.getItem('balance');
       const newBalance = state.spin.spin.won > 0 ? `${(+oldBalance + 1) + state.spin.spin.won}` : `${+oldBalance + state.spin.spin.won}`;
@@ -45,7 +45,7 @@ export const Slot: FC = () => {
 	return (
 		<div className="spin">
 			<NavBar
-        balance={balance || 1}
+        balance={balance || 20}
         won={state.spin.spin.won ? state.spin.spin.won : 0}
 			/>
       <div className="spin__balance">
