@@ -6,7 +6,7 @@
 ## Installation
  * Ensure you have node 12.x.x installed.
 
- * Clone the repos
+ * Clone the repo
 
  * cd into the project
  
