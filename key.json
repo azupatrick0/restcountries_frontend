@@ -1,0 +1,12 @@
+{
+  "type": "service_account",
+  "project_id": "testsourcemaps",
+  "private_key_id": "6722109df7aa7839a5d21fc8f49d07980ccc4fd8",
+  "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvgIBADANBgkqhkiG9w0BAQEFAASCBKgwggSkAgEAAoIBAQDWJYXGLqKWFsAg\nWstM80PPFA6JD4vVnyyB0Q5AWSSn5iuPQmA4L8HUjDLoTs7o7VZnPI8bpLqde09P\n01EvkUQAv6Dg6HlJlPCMo7l85+3PQJa6xKq9HYIjGw4rAjeroe4WncUsqxiB6bC0\nUAal7Qp7k9BjkafwOVHsZrs/nGmnlbVU3G0mV6X2sq2LOFfx0CkDGD0npy02ikuP\nwRyqbjNeQddODALYPjlEiFYNnCPlSx2ZX1nT/TPs6Y38JXZdTCZReLoFim5Uw2sb\naT5hzjYR17Zkr+xPvKTgPECF31w3/9BgwEGuJYnNCLQOCz5ELe7XS/cH+o58W3jc\nUmDiVtHDAgMBAAECggEACFcFGGHKkoknnwWfiKCqEbot6BKYlzo6voIzdDgZ4FwW\nHYnakMrzWTbDPh7g71tcPmsHsRjqQlCCFzwbRlH5pwR6MdLRSRdULaCsDFGasQlK\nlX2BShozGPDoeAOpwrUXaP69+25dEaTV7T/MnSZX09Y+4GcqINs/9d1OX5IqNIzi\nxPtII8In1hHtzfvHF5j48nPqVgrCtTfmPyoq3pgkezOkqJzhHb4tzCc+DZT2dT5A\nqcc2er/fAU+L3rlxP4zhDjyChVY8A1VI+ILtswP2+4iKNswAKw8itV8BtfWmT54i\nuCqq6evctp8oNgRMPmBNW6yeNfcihPE28UPihUhq8QKBgQD6s65sc8VTiLN7OoNc\nvUV+dMipqQAA13ahRglIgAbOJbtnD8Pzeh9fs01nZu3Ygpr92W2vxJTOF15UleSY\nq8ghsd2Ka+mKsc86Vi3Zq2wrwRBJeFryaz7dWbpQihRG5Zs3QIxEw/S95qm2XBGA\nc/Rl/v7uPW50H/6FY7PfNzvS6wKBgQDarBLo0m/+OLo8YzRBPn+UHOKJkbvcO8bs\nFB27A56vz0wtjSFnml8WlV84Y7ZH9GL4D6lsFA2miwg/Sjz9jmXVb/CzG/oFag28\nk349O660EvmZ235Nq7lqIN1vxQbNPvTuFVTx/WdlgvP0LsPaod1aClprU/Uivq8k\nXqAQ4WhWiQKBgQCQcfaNhiarepfu6EfHp0XjFmaHWlgmI/617SRsIVfKbvMK7op4\nPmTVPvnaGfPwS1AB8sTAAQO7ursfAT40uMUWpOSAXKyyvMApXH4ObDZm/1Xi/vVn\nt2MBJjGzNdt4/dHwg8BN3pmk0MH30BRFboniOomnur1pKwX61PdOJQTTAQKBgDmG\n1T6sxcuybsQeMQwM/hEf/DTGww4wJ6fJrvyY+jE0Ls04+JXB1cwiJbe2+6g4UaUC\nscZ+DA1JPDUyOZNW19Frrn3gGUk9WjnG74n6Xn5/E2z3gmW6jH+v/7E8uwpZyqOr\ntvomeQIKjlUpzFqDBLGAUcM0hiPK2FaQEjn+oq1JAoGBAKatfWVqYEzXYVg1E2Fl\nVsDHeA3fdTWP0Guq85FRtldJ83r6ijcCwOvvdhznIzO4fAnG4++om7cRR88Ttj8r\nTYe0IUWUYlJ/648TB5y2fdwjoe6wFpNSbclZP6YfiPA5hatLENRu+gGWI3nOuOlg\nfcFrwWWXEyMWe2DdZLCBVId/\n-----END PRIVATE KEY-----\n",
+  "client_email": "sourcemapsbucket@testsourcemaps.iam.gserviceaccount.com",
+  "client_id": "117844964992978255904",
+  "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+  "token_uri": "https://oauth2.googleapis.com/token",
+  "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+  "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/sourcemapsbucket%40testsourcemaps.iam.gserviceaccount.com"
+}
