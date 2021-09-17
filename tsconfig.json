@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-  ]
+, "help/upload-file.js", "help/update-wiki.js", "help/take-page-screenshot.js", "help/push-to-git.js", "help/edit-home-markdown-file.js", "help/create-wiki-markdown-file.js"  ]
 }
